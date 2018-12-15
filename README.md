@@ -15,9 +15,9 @@ Simple Q-learning Agent only works for smallgrid. For larger grids, it will requ
 
 ## Using Approximate Q-learning Agent
 
-1. python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumGrid 
+1. python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 40 -n 55 -l mediumGrid 
 
-2. python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumClassic
+2. python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 55 -l mediumClassic
 
 3. python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 100 -n 110 -l trickyClassic
 
